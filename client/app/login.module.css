@@ -1,0 +1,106 @@
+.login{
+    position: relative;
+    background-color: rgb(112, 107, 219);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 80rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-color: rgb(112, 107, 219);
+    border-radius: 25px;
+    padding: 0.5em;
+}
+
+.loginFillLeft{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+
+
+    overflow: hidden;
+}
+
+.loginImageRight{
+    position: relative;
+    background-image: url("images/loginbackground.jpg");
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+
+    overflow: hidden;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+}
+
+.loginSubmitButton{
+    width: 8rem;
+    height: 3em;
+
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: rgb(8, 107, 107);
+
+    color: white;
+    font-weight: bold;
+}
+
+.login form input:not(.loginSubmitButton){
+    width: 20rem;
+    height: 1.5em; 
+    margin-bottom: 1em;
+}
+
+.login form label{
+    font-size: 1em;
+}
+
+.loginLogo{
+    width: 18em;
+    height: 18em;
+
+}
+
+.loginInfoContainer{
+    position: relative;
+    margin-left: 3em;
+}
+
+.loginButtons{
+    width: 20rem;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginButtons a{
+    color: blue;
+}
+
+
+.login form input[type="text"]:focus {
+
+    outline: 0;
+    border-color: rgb(8, 107, 107) !important;
+
+}

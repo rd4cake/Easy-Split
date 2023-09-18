@@ -1,0 +1,103 @@
+.dashboardAddGui {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.295);
+
+    z-index: 1;
+}
+
+.dashboardAddGuiCenter {
+    width: 40rem;
+    height: 20rem;
+    padding: 2rem;
+    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(34, 33, 33);
+    border-radius: 25px;
+
+    box-shadow: -1px -3px 20px 20px rgb(0 0 0 / 0.2);
+}
+
+.dashboardguiImgSelector{
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboardguiImgSelector img{
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+
+.dashboardFieldContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dashboardFieldContainer h2{
+    height: 1em;
+    margin: 0.5em;
+    margin-right: 1em;
+}
+
+.dashboardClose{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+.dashboardAddGui input[type="file"] {
+    color: white;
+    font-size: 1em;
+}
+
+.dashboardAddGui h2 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.dashboardAddGui select{
+    height: 1.5rem;
+}
+
+.dashboardBtn {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 1em;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.dashboardBtn:hover,
+.dashboardBtn:focus {
+  background-color: #F082AC;
+}

@@ -1,0 +1,39 @@
+.dashboardCard {
+    position: relative;
+    width: 90%;
+    height: 6rem;
+    background-color: rgb(54, 54, 68);
+    margin: 1em 0em;
+    text-align: center;
+
+    box-shadow: 11px -14px 0px 4px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0em 1em;
+    align-items: center;
+
+    flex: none;
+}
+
+.dashboardCard h2{
+    color: white;
+}
+
+.dashboardCardProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.dashboardCardQuantity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dashboardCardQuantity svg{
+    margin-left: 1em;
+}
